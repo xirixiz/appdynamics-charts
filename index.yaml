@@ -1,1202 +1,1232 @@
 apiVersion: v1
 entries:
   cluster-agent:
-  - apiVersion: v2
-    appVersion: 23.2.0
-    created: "2023-02-27T16:02:41.874706051Z"
-    dependencies:
-    - condition: install.metrics-server
-      name: metrics-server
-      repository: https://kubernetes-sigs.github.io/metrics-server/
-      version: 3.7.0
-    description: Sophisticated helm chart to deploy cluster agent and machine agent
-      in addition with advanced features like multiple cluster agent deployments,
-      Granular control over config with intuitive boolean switches
-    digest: acce323273e75ca920ace76940727ed60617ba2b4910c02cb94ac88fec6f4f01
-    home: https://appdynamics.com
-    icon: https://raw.githubusercontent.com/CiscoDevNet/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - cluster
-    - kubernetes
-    - openshift
-    - monitoring
-    - pod
-    - deployment
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: cluster-agent
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/cluster-agent-1.10.0.tgz
-    version: 1.10.0
-  - apiVersion: v2
-    appVersion: 22.12.1
-    created: "2023-01-10T05:16:00.221842423Z"
-    dependencies:
-    - condition: install.metrics-server
-      name: metrics-server
-      repository: https://kubernetes-sigs.github.io/metrics-server/
-      version: 3.7.0
-    description: Sophisticated helm chart to deploy cluster agent and machine agent
-      in addition with advanced features like multiple cluster agent deployments,
-      Granular control over config with intuitive boolean switches
-    digest: 3e19c53daa0417601e631ef64af8c95999ca8b5503fdb69fe0f222df22e119e9
-    home: https://appdynamics.com
-    icon: https://raw.githubusercontent.com/CiscoDevNet/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - cluster
-    - kubernetes
-    - openshift
-    - monitoring
-    - pod
-    - deployment
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: cluster-agent
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/cluster-agent-1.9.0.tgz
-    version: 1.9.0
-  - apiVersion: v2
-    appVersion: 22.12.0
-    created: "2022-12-22T10:06:48.15464559Z"
-    dependencies:
-    - condition: install.metrics-server
-      name: metrics-server
-      repository: https://kubernetes-sigs.github.io/metrics-server/
-      version: 3.7.0
-    description: Sophisticated helm chart to deploy cluster agent and machine agent
-      in addition with advanced features like multiple cluster agent deployments,
-      Granular control over config with intuitive boolean switches
-    digest: bfe049a8dff8275e271b9942cf2fa1d07f5a687de8cabe0af66cb8e45cf6f322
-    home: https://appdynamics.com
-    icon: https://raw.githubusercontent.com/CiscoDevNet/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - cluster
-    - kubernetes
-    - openshift
-    - monitoring
-    - pod
-    - deployment
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: cluster-agent
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/cluster-agent-1.8.0.tgz
-    version: 1.8.0
-  - apiVersion: v2
-    appVersion: 22.11.0
-    created: "2022-11-22T14:01:29.775318923Z"
-    dependencies:
-    - condition: install.metrics-server
-      name: metrics-server
-      repository: https://kubernetes-sigs.github.io/metrics-server/
-      version: 3.7.0
-    description: Sophisticated helm chart to deploy cluster agent and machine agent
-      in addition with advanced features like multiple cluster agent deployments,
-      Granular control over config with intuitive boolean switches
-    digest: bad5842297bf8bd9d20f5255d24e077944697a0f26614b85ea4f2f07432e861f
-    home: https://appdynamics.com
-    icon: https://raw.githubusercontent.com/CiscoDevNet/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - cluster
-    - kubernetes
-    - openshift
-    - monitoring
-    - pod
-    - deployment
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: cluster-agent
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/cluster-agent-1.7.0.tgz
-    version: 1.7.0
-  - apiVersion: v2
-    appVersion: 22.9.0
-    created: "2022-09-27T12:25:42.515088216Z"
-    dependencies:
-    - condition: install.metrics-server
-      name: metrics-server
-      repository: https://kubernetes-sigs.github.io/metrics-server/
-      version: 3.7.0
-    description: Sophisticated helm chart to deploy cluster agent and machine agent
-      in addition with advanced features like multiple cluster agent deployments,
-      Granular control over config with intuitive boolean switches
-    digest: 550f6886ed2e6c7057f61d9835b982aff8557516d57d8ba4120fe9b202108987
-    home: https://appdynamics.com
-    icon: https://raw.githubusercontent.com/CiscoDevNet/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - cluster
-    - kubernetes
-    - openshift
-    - monitoring
-    - pod
-    - deployment
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: cluster-agent
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/cluster-agent-1.6.0.tgz
-    version: 1.6.0
-  - apiVersion: v2
-    appVersion: 22.7.0
-    created: "2022-07-29T18:04:10.716648797Z"
-    dependencies:
-    - condition: install.metrics-server
-      name: metrics-server
-      repository: https://kubernetes-sigs.github.io/metrics-server/
-      version: 3.7.0
-    description: Sophisticated helm chart to deploy cluster agent and machine agent
-      in addition with advanced features like multiple cluster agent deployments,
-      Granular control over config with intuitive boolean switches
-    digest: a5fe1587e9737b48a2f80565b5e181a89e88a51904e80fd153353cfe4756a237
-    home: https://appdynamics.com
-    icon: https://raw.githubusercontent.com/CiscoDevNet/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - cluster
-    - kubernetes
-    - openshift
-    - monitoring
-    - pod
-    - deployment
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: cluster-agent
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/cluster-agent-1.5.0.tgz
-    version: 1.5.0
-  - apiVersion: v2
-    appVersion: 22.6.0
-    created: "2022-06-21T08:17:26.707866724Z"
-    dependencies:
-    - condition: install.metrics-server
-      name: metrics-server
-      repository: https://kubernetes-sigs.github.io/metrics-server/
-      version: 3.7.0
-    description: Sophisticated helm chart to deploy cluster agent and machine agent
-      in addition with advanced features like multiple cluster agent deployments,
-      Granular control over config with intuitive boolean switches
-    digest: 0e99dca6415dd27b1b3aa7acc6ec9cfef192b849a73c54ae364b5f7a0e2627f1
-    home: https://appdynamics.com
-    icon: https://raw.githubusercontent.com/CiscoDevNet/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - cluster
-    - kubernetes
-    - openshift
-    - monitoring
-    - pod
-    - deployment
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: cluster-agent
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/cluster-agent-1.4.0.tgz
-    version: 1.4.0
-  - apiVersion: v2
-    appVersion: 22.4.0
-    created: "2022-05-26T07:13:40.025668154Z"
-    dependencies:
-    - condition: install.metrics-server
-      name: metrics-server
-      repository: https://kubernetes-sigs.github.io/metrics-server/
-      version: 3.7.0
-    description: Sophisticated helm chart to deploy cluster agent and machine agent
-      in addition with advanced features like multiple cluster agent deployments,
-      Granular control over config with intuitive boolean switches
-    digest: bef6e0b876a50be47e003066dbb37bfa9f19eb403f83152b5e1d4ab71b642868
-    home: https://appdynamics.com
-    icon: https://raw.githubusercontent.com/CiscoDevNet/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - cluster
-    - kubernetes
-    - openshift
-    - monitoring
-    - pod
-    - deployment
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: cluster-agent
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/cluster-agent-1.3.0.tgz
-    version: 1.3.0
-  - apiVersion: v2
-    appVersion: 22.1.0
-    created: "2022-05-26T07:13:40.023975118Z"
-    dependencies:
-    - condition: install.metrics-server
-      name: metrics-server
-      repository: https://charts.helm.sh/stable/
-      version: 2.11.4
-    description: Sophisticated helm chart to deploy cluster agent and machine agent
-      in addition with advanced features like multiple cluster agent deployments,
-      Granular control over config with intuitive boolean switches
-    digest: 96de2c7a9672c05de1edfc2e7ab999ae76ad242222920ea1d43dddb4066fd034
-    home: https://appdynamics.com
-    icon: https://raw.githubusercontent.com/CiscoDevNet/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - cluster
-    - kubernetes
-    - openshift
-    - monitoring
-    - pod
-    - deployment
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: cluster-agent
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/cluster-agent-1.2.0.tgz
-    version: 1.2.0
-  - apiVersion: v2
-    appVersion: 21.12.0
-    created: "2022-05-26T07:13:40.021655364Z"
-    dependencies:
-    - condition: install.metrics-server
-      name: metrics-server
-      repository: https://charts.helm.sh/stable/
-      version: 2.11.4
-    description: Sophisticated helm chart to deploy cluster agent and machine agent
-      in addition with advanced features like multiple cluster agent deployments,
-      Granular control over config with intuitive boolean switches
-    digest: b9548f70f2f4653a282d786d111f098c98918d906474c1ef4825993589a1f72b
-    home: https://appdynamics.com
-    icon: https://raw.githubusercontent.com/CiscoDevNet/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - cluster
-    - kubernetes
-    - openshift
-    - monitoring
-    - pod
-    - deployment
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: cluster-agent
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/cluster-agent-1.1.0.tgz
-    version: 1.1.0
-  - apiVersion: v2
-    appVersion: 21.10.0
-    created: "2022-05-26T07:13:40.012533706Z"
-    dependencies:
-    - condition: install.metrics-server
-      name: metrics-server
-      repository: https://charts.helm.sh/stable/
-      version: 2.11.4
-    description: Sophisticated helm chart to deploy cluster agent and machine agent
-      in addition with advanced features like multiple cluster agent deployments,
-      Granular control over config with intuitive boolean switches
-    digest: 39b8f46a3c96bf827b1af5d90649b1d22d0a5e2e7a06e53fd74e2c5061ed366f
-    home: https://appdynamics.com
-    icon: https://raw.githubusercontent.com/CiscoDevNet/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - cluster
-    - kubernetes
-    - openshift
-    - monitoring
-    - pod
-    - deployment
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: cluster-agent
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/cluster-agent-0.1.19.tgz
-    version: 0.1.19
-  - apiVersion: v2
-    appVersion: 21.7.0
-    created: "2022-05-26T07:13:40.009938788Z"
-    dependencies:
-    - condition: install.metrics-server
-      name: metrics-server
-      repository: https://charts.helm.sh/stable/
-      version: 2.11.4
-    description: Sophisticated helm chart to deploy cluster agent is addition with
-      advanced features like multiple cluster agent deployments, Granular control
-      over config with intuitive boolean switches.
-    digest: e702fb338625b3590551e57530e4bf417be9d3c6bfd0ca93247021f548cadfb5
-    home: https://appdynamics.com
-    icon: https://raw.githubusercontent.com/CiscoDevNet/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - cluster
-    - kubernetes
-    - openshift
-    - monitoring
-    - pod
-    - deployment
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: cluster-agent
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/cluster-agent-0.1.18.tgz
-    version: 0.1.18
-  - apiVersion: v2
-    appVersion: 21.5.0
-    created: "2022-05-26T07:13:40.008241031Z"
-    dependencies:
-    - condition: install.metrics-server
-      name: metrics-server
-      repository: https://charts.helm.sh/stable/
-      version: 2.11.4
-    description: Sophisticated helm chart to deploy cluster agent is addition with
-      advanced features like multiple cluster agent deployments, Granular control
-      over config with intuitive boolean switches.
-    digest: 369147489f8a65a04845ed27ff3e9643eb259722b5859b26e58f576890cefae9
-    home: https://appdynamics.com
-    icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - cluster
-    - kubernetes
-    - openshift
-    - monitoring
-    - pod
-    - deployment
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: cluster-agent
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/cluster-agent-0.1.17.tgz
-    version: 0.1.17
-  - apiVersion: v2
-    appVersion: 21.3.1
-    created: "2022-05-26T07:13:40.006805029Z"
-    dependencies:
-    - condition: install.metrics-server
-      name: metrics-server
-      repository: https://charts.helm.sh/stable/
-      version: 2.11.4
-    description: Sophisticated helm chart to deploy cluster agent is addition with
-      advanced features like multiple cluster agent deployments, Granular control
-      over config with intuitive boolean switches.
-    digest: 09f1f9e3ccd7e9ad064676b8d761c17ca4c8ee8575ba18043f37aba641ee5e44
-    home: https://appdynamics.com
-    icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - cluster
-    - kubernetes
-    - openshift
-    - monitoring
-    - pod
-    - deployment
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: cluster-agent
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/cluster-agent-0.1.16.tgz
-    version: 0.1.16
-  - apiVersion: v2
-    appVersion: 21.3.0
-    created: "2022-05-26T07:13:40.005512888Z"
-    dependencies:
-    - condition: install.metrics-server
-      name: metrics-server
-      repository: https://charts.helm.sh/stable/
-      version: 2.11.4
-    description: Sophisticated helm chart to deploy cluster agent is addition with
-      advanced features like multiple cluster agent deployments, Granular control
-      over config with intuitive boolean switches.
-    digest: 8cd45dd61797d20525bcbe809c68f3519ae1f27b3215f425b2915301faeb3306
-    home: https://appdynamics.com
-    icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - cluster
-    - kubernetes
-    - openshift
-    - monitoring
-    - pod
-    - deployment
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: cluster-agent
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/cluster-agent-0.1.15.tgz
-    version: 0.1.15
-  - apiVersion: v2
-    appVersion: 21.2.0
-    created: "2022-05-26T07:13:40.004217532Z"
-    dependencies:
-    - condition: install.metrics-server
-      name: metrics-server
-      repository: https://charts.helm.sh/stable/
-      version: 2.11.4
-    description: Sophisticated helm chart to deploy cluster agent is addition with
-      advanced features like multiple cluster agent deployments, Granular control
-      over config with intuitive boolean switches.
-    digest: 1c9b820c8d12b344b99ad592f996b681663703ffefd5922a35980e7a2ba535c1
-    home: https://appdynamics.com
-    icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - cluster
-    - kubernetes
-    - openshift
-    - monitoring
-    - pod
-    - deployment
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: cluster-agent
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/cluster-agent-0.1.14.tgz
-    version: 0.1.14
-  - apiVersion: v2
-    appVersion: 20.12.1
-    created: "2022-05-26T07:13:40.002957416Z"
-    dependencies:
-    - condition: install.metrics-server
-      name: metrics-server
-      repository: https://charts.helm.sh/stable/
-      version: 2.11.4
-    description: Sophisticated helm chart to deploy cluster agent is addition with
-      advanced features like multiple cluster agent deployments, Granular control
-      over config with intuitive boolean switches.
-    digest: 8c6a6ae83cf06d597f4d71ee5623f4738cda2e7af3cd667eebead814c107f25c
-    home: https://appdynamics.com
-    icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - cluster
-    - kubernetes
-    - openshift
-    - monitoring
-    - pod
-    - deployment
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: cluster-agent
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/cluster-agent-0.1.12.tgz
-    version: 0.1.12
-  - apiVersion: v2
-    appVersion: 20.12.0
-    created: "2022-05-26T07:13:40.001551916Z"
-    dependencies:
-    - condition: install.metrics-server
-      name: metrics-server
-      repository: https://charts.helm.sh/stable/
-      version: 2.11.4
-    description: Sophisticated helm chart to deploy cluster agent is addition with
-      advanced features like multiple cluster agent deployments, Granular control
-      over config with intuitive boolean switches.
-    digest: b8183b0c00fdcaf39e38aab80d321b79c721dfb661478d2290b5bfa5e1ec8e01
-    home: https://appdynamics.com
-    icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - cluster
-    - kubernetes
-    - openshift
-    - monitoring
-    - pod
-    - deployment
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: cluster-agent
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/cluster-agent-0.1.11.tgz
-    version: 0.1.11
-  - apiVersion: v2
-    appVersion: 20.11.0
-    created: "2022-05-26T07:13:39.999394154Z"
-    dependencies:
-    - condition: install.metrics-server
-      name: metrics-server
-      repository: https://kubernetes-charts.storage.googleapis.com
-      version: 2.11.1
-    description: Sophisticated helm chart to deploy cluster agent is addition with
-      advanced features like multiple cluster agent deployments, Granular control
-      over config with intuitive boolean switches.
-    digest: c24bf12c8bc1a919410f07fa33a4660c413575cf57a083d7a4bdc4da50cbf2c1
-    home: https://appdynamics.com
-    icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - cluster
-    - kubernetes
-    - openshift
-    - monitoring
-    - pod
-    - deployment
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: cluster-agent
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/cluster-agent-0.1.10.tgz
-    version: 0.1.10
-  - apiVersion: v2
-    appVersion: 20.10.0
-    created: "2022-05-26T07:13:40.020066517Z"
-    dependencies:
-    - condition: install.metrics-server
-      name: metrics-server
-      repository: https://kubernetes-charts.storage.googleapis.com
-      version: 2.11.1
-    description: Sophisticated helm chart to deploy cluster agent is addition with
-      advanced features like multiple cluster agent deployments, Granular control
-      over config with intuitive boolean switches.
-    digest: 5464c7ac6bab61f0a9ed8868ea86b6dda89c236db025cd6caa9ddb98e1a148b5
-    home: https://appdynamics.com
-    icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - cluster
-    - kubernetes
-    - openshift
-    - monitoring
-    - pod
-    - deployment
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: cluster-agent
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/cluster-agent-0.1.9.tgz
-    version: 0.1.9
-  - apiVersion: v2
-    appVersion: 20.9.1
-    created: "2022-05-26T07:13:40.018883844Z"
-    dependencies:
-    - condition: install.metrics-server
-      name: metrics-server
-      repository: https://kubernetes-charts.storage.googleapis.com
-      version: 2.11.1
-    description: Sophisticated helm chart to deploy cluster agent is addition with
-      advanced features like multiple cluster agent deployments, Granular control
-      over config with intuitive boolean switches.
-    digest: bcfc2dbbb47ee8f217cd4cc105875b72bdd793385fe40422a1789116f4fbb8e3
-    home: https://appdynamics.com
-    icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - cluster
-    - kubernetes
-    - openshift
-    - monitoring
-    - pod
-    - deployment
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: cluster-agent
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/cluster-agent-0.1.8.tgz
-    version: 0.1.8
-  - apiVersion: v2
-    appVersion: 20.9.0
-    created: "2022-05-26T07:13:40.017688297Z"
-    dependencies:
-    - condition: install.metrics-server
-      name: metrics-server
-      repository: https://kubernetes-charts.storage.googleapis.com
-      version: 2.11.1
-    description: Sophisticated helm chart to deploy cluster agent is addition with
-      advanced features like multiple cluster agent deployments, Granular control
-      over config with intuitive boolean switches.
-    digest: f535c39e1e67726d3cfc8f06c21ea04a5eeb76b296c17ac3e27d201ada9ba08e
-    home: https://appdynamics.com
-    icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - cluster
-    - kubernetes
-    - openshift
-    - monitoring
-    - pod
-    - deployment
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: cluster-agent
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/cluster-agent-0.1.7.tgz
-    version: 0.1.7
-  - apiVersion: v2
-    appVersion: 20.8.0
-    created: "2022-05-26T07:13:40.016486836Z"
-    dependencies:
-    - condition: install.metrics-server
-      name: metrics-server
-      repository: https://kubernetes-charts.storage.googleapis.com
-      version: 2.11.1
-    description: Sophisticated helm chart to deploy cluster agent is addition with
-      advanced features like multiple cluster agent deployments, Granular control
-      over config with intuitive boolean switches.
-    digest: bddfea50da4e5222dc2fcde874a223efd8558d6309f9833b2ae1dfd175dc1a23
-    home: https://appdynamics.com
-    icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - cluster
-    - kubernetes
-    - openshift
-    - monitoring
-    - pod
-    - deployment
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: cluster-agent
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/cluster-agent-0.1.6.tgz
-    version: 0.1.6
-  - apiVersion: v2
-    appVersion: 20.7.0
-    created: "2022-05-26T07:13:40.015294998Z"
-    dependencies:
-    - condition: install.metrics-server
-      name: metrics-server
-      repository: https://kubernetes-charts.storage.googleapis.com
-      version: 2.11.1
-    description: Sophisticated helm chart to deploy cluster agent is addition with
-      advanced features like multiple cluster agent deployments, Granular control
-      over config with intuitive boolean switches.
-    digest: 310264f48b2ebb5a9ba0e23ce6cb45809caddead39a7a94a82b616ce0f8ae4a4
-    home: https://appdynamics.com
-    icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - cluster
-    - kubernetes
-    - openshift
-    - monitoring
-    - pod
-    - deployment
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: cluster-agent
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/cluster-agent-0.1.5.tgz
-    version: 0.1.5
-  - apiVersion: v1
-    appVersion: 4.5.16
-    created: "2022-05-26T07:13:40.014084691Z"
-    description: Helm chart to deploy AppDynamics ClusterAgent for Kubernetes
-    digest: 875e0b99360648d2a9bc5caab2b8fc62c2dcf0f41fa7bec49dd69af7b8753a1b
-    home: https://www.appdynamics.com/
-    icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - monitoring
-    - Kubernetes
-    - OpenShift
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: cluster-agent
-    sources:
-    - https://github.com/Appdynamics/cluster-agent/blob/master/build/Dockerfile
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/cluster-agent-0.1.4.tgz
-    version: 0.1.4
-  - apiVersion: v1
-    appVersion: 0.1.5
-    created: "2022-05-26T07:13:40.013551176Z"
-    description: Helm chart to deploy AppDynamics ClusterAgent for Kubernetes
-    digest: 724d3e4d03059a41c3644f18c7c2f61c3699462c433f344a2f993d395aa71d3b
-    home: https://www.appdynamics.com/
-    icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - monitoring
-    - Kubernetes
-    - OpenShift
-    maintainers:
-    - email: sasha.jeltuhin@appdynamics.com
-      name: sashaPM
-    name: cluster-agent
-    sources:
-    - https://github.com/Appdynamics/cluster-agent/blob/master/build/Dockerfile
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/cluster-agent-0.1.3.tgz
-    version: 0.1.3
-  - apiVersion: v1
-    appVersion: 0.1.5
-    created: "2022-05-26T07:13:40.01305835Z"
-    description: Helm chart to deploy AppDynamics ClusterAgent for Kubernetes
-    digest: e4a26cd3647127fd85258d4a0445073eaf238a440b78be62c6c7376c0fd10a4c
-    home: https://www.appdynamics.com/
-    icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - monitoring
-    - Kubernetes
-    - OpenShift
-    maintainers:
-    - email: sasha.jeltuhin@appdynamics.com
-      name: sashaPM
-    name: cluster-agent
-    sources:
-    - https://github.com/Appdynamics/cluster-agent/blob/master/build/Dockerfile
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/cluster-agent-0.1.2.tgz
-    version: 0.1.2
-  - apiVersion: v1
-    appVersion: 0.1.5
-    created: "2022-05-26T07:13:39.998027977Z"
-    description: Helm chart to deploy AppDynamics ClusterAgent for Kubernetes
-    digest: 1e7a7f6372fa8cbe9b6fc6085b9c39a259e6579e4e712b063f7f07d868f96554
-    home: https://www.appdynamics.com/
-    icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - monitoring
-    - Kubernetes
-    - OpenShift
-    maintainers:
-    - email: sasha.jeltuhin@appdynamics.com
-      name: sashaPM
-    name: cluster-agent
-    sources:
-    - https://github.com/Appdynamics/cluster-agent/blob/master/build/Dockerfile
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/cluster-agent-0.1.1.tgz
-    version: 0.1.1
+    - apiVersion: v2
+      appVersion: 23.2.0
+      created: "2023-02-27T16:02:41.874706051Z"
+      dependencies:
+        - condition: install.metrics-server
+          name: metrics-server
+          repository: https://kubernetes-sigs.github.io/metrics-server/
+          version: 3.7.0
+      description:
+        Sophisticated helm chart to deploy cluster agent and machine agent
+        in addition with advanced features like multiple cluster agent deployments,
+        Granular control over config with intuitive boolean switches
+      digest: acce323273e75ca920ace76940727ed60617ba2b4910c02cb94ac88fec6f4f01
+      home: https://appdynamics.com
+      icon: https://raw.githubusercontent.com/xirixiz/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - cluster
+        - kubernetes
+        - openshift
+        - monitoring
+        - pod
+        - deployment
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: cluster-agent
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/cluster-agent-1.10.0.tgz
+      version: 1.10.0
+    - apiVersion: v2
+      appVersion: 22.12.1
+      created: "2023-01-10T05:16:00.221842423Z"
+      dependencies:
+        - condition: install.metrics-server
+          name: metrics-server
+          repository: https://kubernetes-sigs.github.io/metrics-server/
+          version: 3.7.0
+      description:
+        Sophisticated helm chart to deploy cluster agent and machine agent
+        in addition with advanced features like multiple cluster agent deployments,
+        Granular control over config with intuitive boolean switches
+      digest: 3e19c53daa0417601e631ef64af8c95999ca8b5503fdb69fe0f222df22e119e9
+      home: https://appdynamics.com
+      icon: https://raw.githubusercontent.com/xirixiz/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - cluster
+        - kubernetes
+        - openshift
+        - monitoring
+        - pod
+        - deployment
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: cluster-agent
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/cluster-agent-1.9.0.tgz
+      version: 1.9.0
+    - apiVersion: v2
+      appVersion: 22.12.0
+      created: "2022-12-22T10:06:48.15464559Z"
+      dependencies:
+        - condition: install.metrics-server
+          name: metrics-server
+          repository: https://kubernetes-sigs.github.io/metrics-server/
+          version: 3.7.0
+      description:
+        Sophisticated helm chart to deploy cluster agent and machine agent
+        in addition with advanced features like multiple cluster agent deployments,
+        Granular control over config with intuitive boolean switches
+      digest: bfe049a8dff8275e271b9942cf2fa1d07f5a687de8cabe0af66cb8e45cf6f322
+      home: https://appdynamics.com
+      icon: https://raw.githubusercontent.com/xirixiz/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - cluster
+        - kubernetes
+        - openshift
+        - monitoring
+        - pod
+        - deployment
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: cluster-agent
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/cluster-agent-1.8.0.tgz
+      version: 1.8.0
+    - apiVersion: v2
+      appVersion: 22.11.0
+      created: "2022-11-22T14:01:29.775318923Z"
+      dependencies:
+        - condition: install.metrics-server
+          name: metrics-server
+          repository: https://kubernetes-sigs.github.io/metrics-server/
+          version: 3.7.0
+      description:
+        Sophisticated helm chart to deploy cluster agent and machine agent
+        in addition with advanced features like multiple cluster agent deployments,
+        Granular control over config with intuitive boolean switches
+      digest: bad5842297bf8bd9d20f5255d24e077944697a0f26614b85ea4f2f07432e861f
+      home: https://appdynamics.com
+      icon: https://raw.githubusercontent.com/xirixiz/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - cluster
+        - kubernetes
+        - openshift
+        - monitoring
+        - pod
+        - deployment
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: cluster-agent
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/cluster-agent-1.7.0.tgz
+      version: 1.7.0
+    - apiVersion: v2
+      appVersion: 22.9.0
+      created: "2022-09-27T12:25:42.515088216Z"
+      dependencies:
+        - condition: install.metrics-server
+          name: metrics-server
+          repository: https://kubernetes-sigs.github.io/metrics-server/
+          version: 3.7.0
+      description:
+        Sophisticated helm chart to deploy cluster agent and machine agent
+        in addition with advanced features like multiple cluster agent deployments,
+        Granular control over config with intuitive boolean switches
+      digest: 550f6886ed2e6c7057f61d9835b982aff8557516d57d8ba4120fe9b202108987
+      home: https://appdynamics.com
+      icon: https://raw.githubusercontent.com/xirixiz/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - cluster
+        - kubernetes
+        - openshift
+        - monitoring
+        - pod
+        - deployment
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: cluster-agent
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/cluster-agent-1.6.0.tgz
+      version: 1.6.0
+    - apiVersion: v2
+      appVersion: 22.7.0
+      created: "2022-07-29T18:04:10.716648797Z"
+      dependencies:
+        - condition: install.metrics-server
+          name: metrics-server
+          repository: https://kubernetes-sigs.github.io/metrics-server/
+          version: 3.7.0
+      description:
+        Sophisticated helm chart to deploy cluster agent and machine agent
+        in addition with advanced features like multiple cluster agent deployments,
+        Granular control over config with intuitive boolean switches
+      digest: a5fe1587e9737b48a2f80565b5e181a89e88a51904e80fd153353cfe4756a237
+      home: https://appdynamics.com
+      icon: https://raw.githubusercontent.com/xirixiz/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - cluster
+        - kubernetes
+        - openshift
+        - monitoring
+        - pod
+        - deployment
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: cluster-agent
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/cluster-agent-1.5.0.tgz
+      version: 1.5.0
+    - apiVersion: v2
+      appVersion: 22.6.0
+      created: "2022-06-21T08:17:26.707866724Z"
+      dependencies:
+        - condition: install.metrics-server
+          name: metrics-server
+          repository: https://kubernetes-sigs.github.io/metrics-server/
+          version: 3.7.0
+      description:
+        Sophisticated helm chart to deploy cluster agent and machine agent
+        in addition with advanced features like multiple cluster agent deployments,
+        Granular control over config with intuitive boolean switches
+      digest: 0e99dca6415dd27b1b3aa7acc6ec9cfef192b849a73c54ae364b5f7a0e2627f1
+      home: https://appdynamics.com
+      icon: https://raw.githubusercontent.com/xirixiz/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - cluster
+        - kubernetes
+        - openshift
+        - monitoring
+        - pod
+        - deployment
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: cluster-agent
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/cluster-agent-1.4.0.tgz
+      version: 1.4.0
+    - apiVersion: v2
+      appVersion: 22.4.0
+      created: "2022-05-26T07:13:40.025668154Z"
+      dependencies:
+        - condition: install.metrics-server
+          name: metrics-server
+          repository: https://kubernetes-sigs.github.io/metrics-server/
+          version: 3.7.0
+      description:
+        Sophisticated helm chart to deploy cluster agent and machine agent
+        in addition with advanced features like multiple cluster agent deployments,
+        Granular control over config with intuitive boolean switches
+      digest: bef6e0b876a50be47e003066dbb37bfa9f19eb403f83152b5e1d4ab71b642868
+      home: https://appdynamics.com
+      icon: https://raw.githubusercontent.com/xirixiz/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - cluster
+        - kubernetes
+        - openshift
+        - monitoring
+        - pod
+        - deployment
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: cluster-agent
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/cluster-agent-1.3.0.tgz
+      version: 1.3.0
+    - apiVersion: v2
+      appVersion: 22.1.0
+      created: "2022-05-26T07:13:40.023975118Z"
+      dependencies:
+        - condition: install.metrics-server
+          name: metrics-server
+          repository: https://charts.helm.sh/stable/
+          version: 2.11.4
+      description:
+        Sophisticated helm chart to deploy cluster agent and machine agent
+        in addition with advanced features like multiple cluster agent deployments,
+        Granular control over config with intuitive boolean switches
+      digest: 96de2c7a9672c05de1edfc2e7ab999ae76ad242222920ea1d43dddb4066fd034
+      home: https://appdynamics.com
+      icon: https://raw.githubusercontent.com/xirixiz/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - cluster
+        - kubernetes
+        - openshift
+        - monitoring
+        - pod
+        - deployment
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: cluster-agent
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/cluster-agent-1.2.0.tgz
+      version: 1.2.0
+    - apiVersion: v2
+      appVersion: 21.12.0
+      created: "2022-05-26T07:13:40.021655364Z"
+      dependencies:
+        - condition: install.metrics-server
+          name: metrics-server
+          repository: https://charts.helm.sh/stable/
+          version: 2.11.4
+      description:
+        Sophisticated helm chart to deploy cluster agent and machine agent
+        in addition with advanced features like multiple cluster agent deployments,
+        Granular control over config with intuitive boolean switches
+      digest: b9548f70f2f4653a282d786d111f098c98918d906474c1ef4825993589a1f72b
+      home: https://appdynamics.com
+      icon: https://raw.githubusercontent.com/xirixiz/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - cluster
+        - kubernetes
+        - openshift
+        - monitoring
+        - pod
+        - deployment
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: cluster-agent
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/cluster-agent-1.1.0.tgz
+      version: 1.1.0
+    - apiVersion: v2
+      appVersion: 21.10.0
+      created: "2022-05-26T07:13:40.012533706Z"
+      dependencies:
+        - condition: install.metrics-server
+          name: metrics-server
+          repository: https://charts.helm.sh/stable/
+          version: 2.11.4
+      description:
+        Sophisticated helm chart to deploy cluster agent and machine agent
+        in addition with advanced features like multiple cluster agent deployments,
+        Granular control over config with intuitive boolean switches
+      digest: 39b8f46a3c96bf827b1af5d90649b1d22d0a5e2e7a06e53fd74e2c5061ed366f
+      home: https://appdynamics.com
+      icon: https://raw.githubusercontent.com/xirixiz/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - cluster
+        - kubernetes
+        - openshift
+        - monitoring
+        - pod
+        - deployment
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: cluster-agent
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/cluster-agent-0.1.19.tgz
+      version: 0.1.19
+    - apiVersion: v2
+      appVersion: 21.7.0
+      created: "2022-05-26T07:13:40.009938788Z"
+      dependencies:
+        - condition: install.metrics-server
+          name: metrics-server
+          repository: https://charts.helm.sh/stable/
+          version: 2.11.4
+      description:
+        Sophisticated helm chart to deploy cluster agent is addition with
+        advanced features like multiple cluster agent deployments, Granular control
+        over config with intuitive boolean switches.
+      digest: e702fb338625b3590551e57530e4bf417be9d3c6bfd0ca93247021f548cadfb5
+      home: https://appdynamics.com
+      icon: https://raw.githubusercontent.com/xirixiz/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - cluster
+        - kubernetes
+        - openshift
+        - monitoring
+        - pod
+        - deployment
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: cluster-agent
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/cluster-agent-0.1.18.tgz
+      version: 0.1.18
+    - apiVersion: v2
+      appVersion: 21.5.0
+      created: "2022-05-26T07:13:40.008241031Z"
+      dependencies:
+        - condition: install.metrics-server
+          name: metrics-server
+          repository: https://charts.helm.sh/stable/
+          version: 2.11.4
+      description:
+        Sophisticated helm chart to deploy cluster agent is addition with
+        advanced features like multiple cluster agent deployments, Granular control
+        over config with intuitive boolean switches.
+      digest: 369147489f8a65a04845ed27ff3e9643eb259722b5859b26e58f576890cefae9
+      home: https://appdynamics.com
+      icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - cluster
+        - kubernetes
+        - openshift
+        - monitoring
+        - pod
+        - deployment
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: cluster-agent
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/cluster-agent-0.1.17.tgz
+      version: 0.1.17
+    - apiVersion: v2
+      appVersion: 21.3.1
+      created: "2022-05-26T07:13:40.006805029Z"
+      dependencies:
+        - condition: install.metrics-server
+          name: metrics-server
+          repository: https://charts.helm.sh/stable/
+          version: 2.11.4
+      description:
+        Sophisticated helm chart to deploy cluster agent is addition with
+        advanced features like multiple cluster agent deployments, Granular control
+        over config with intuitive boolean switches.
+      digest: 09f1f9e3ccd7e9ad064676b8d761c17ca4c8ee8575ba18043f37aba641ee5e44
+      home: https://appdynamics.com
+      icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - cluster
+        - kubernetes
+        - openshift
+        - monitoring
+        - pod
+        - deployment
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: cluster-agent
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/cluster-agent-0.1.16.tgz
+      version: 0.1.16
+    - apiVersion: v2
+      appVersion: 21.3.0
+      created: "2022-05-26T07:13:40.005512888Z"
+      dependencies:
+        - condition: install.metrics-server
+          name: metrics-server
+          repository: https://charts.helm.sh/stable/
+          version: 2.11.4
+      description:
+        Sophisticated helm chart to deploy cluster agent is addition with
+        advanced features like multiple cluster agent deployments, Granular control
+        over config with intuitive boolean switches.
+      digest: 8cd45dd61797d20525bcbe809c68f3519ae1f27b3215f425b2915301faeb3306
+      home: https://appdynamics.com
+      icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - cluster
+        - kubernetes
+        - openshift
+        - monitoring
+        - pod
+        - deployment
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: cluster-agent
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/cluster-agent-0.1.15.tgz
+      version: 0.1.15
+    - apiVersion: v2
+      appVersion: 21.2.0
+      created: "2022-05-26T07:13:40.004217532Z"
+      dependencies:
+        - condition: install.metrics-server
+          name: metrics-server
+          repository: https://charts.helm.sh/stable/
+          version: 2.11.4
+      description:
+        Sophisticated helm chart to deploy cluster agent is addition with
+        advanced features like multiple cluster agent deployments, Granular control
+        over config with intuitive boolean switches.
+      digest: 1c9b820c8d12b344b99ad592f996b681663703ffefd5922a35980e7a2ba535c1
+      home: https://appdynamics.com
+      icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - cluster
+        - kubernetes
+        - openshift
+        - monitoring
+        - pod
+        - deployment
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: cluster-agent
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/cluster-agent-0.1.14.tgz
+      version: 0.1.14
+    - apiVersion: v2
+      appVersion: 20.12.1
+      created: "2022-05-26T07:13:40.002957416Z"
+      dependencies:
+        - condition: install.metrics-server
+          name: metrics-server
+          repository: https://charts.helm.sh/stable/
+          version: 2.11.4
+      description:
+        Sophisticated helm chart to deploy cluster agent is addition with
+        advanced features like multiple cluster agent deployments, Granular control
+        over config with intuitive boolean switches.
+      digest: 8c6a6ae83cf06d597f4d71ee5623f4738cda2e7af3cd667eebead814c107f25c
+      home: https://appdynamics.com
+      icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - cluster
+        - kubernetes
+        - openshift
+        - monitoring
+        - pod
+        - deployment
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: cluster-agent
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/cluster-agent-0.1.12.tgz
+      version: 0.1.12
+    - apiVersion: v2
+      appVersion: 20.12.0
+      created: "2022-05-26T07:13:40.001551916Z"
+      dependencies:
+        - condition: install.metrics-server
+          name: metrics-server
+          repository: https://charts.helm.sh/stable/
+          version: 2.11.4
+      description:
+        Sophisticated helm chart to deploy cluster agent is addition with
+        advanced features like multiple cluster agent deployments, Granular control
+        over config with intuitive boolean switches.
+      digest: b8183b0c00fdcaf39e38aab80d321b79c721dfb661478d2290b5bfa5e1ec8e01
+      home: https://appdynamics.com
+      icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - cluster
+        - kubernetes
+        - openshift
+        - monitoring
+        - pod
+        - deployment
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: cluster-agent
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/cluster-agent-0.1.11.tgz
+      version: 0.1.11
+    - apiVersion: v2
+      appVersion: 20.11.0
+      created: "2022-05-26T07:13:39.999394154Z"
+      dependencies:
+        - condition: install.metrics-server
+          name: metrics-server
+          repository: https://kubernetes-charts.storage.googleapis.com
+          version: 2.11.1
+      description:
+        Sophisticated helm chart to deploy cluster agent is addition with
+        advanced features like multiple cluster agent deployments, Granular control
+        over config with intuitive boolean switches.
+      digest: c24bf12c8bc1a919410f07fa33a4660c413575cf57a083d7a4bdc4da50cbf2c1
+      home: https://appdynamics.com
+      icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - cluster
+        - kubernetes
+        - openshift
+        - monitoring
+        - pod
+        - deployment
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: cluster-agent
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/cluster-agent-0.1.10.tgz
+      version: 0.1.10
+    - apiVersion: v2
+      appVersion: 20.10.0
+      created: "2022-05-26T07:13:40.020066517Z"
+      dependencies:
+        - condition: install.metrics-server
+          name: metrics-server
+          repository: https://kubernetes-charts.storage.googleapis.com
+          version: 2.11.1
+      description:
+        Sophisticated helm chart to deploy cluster agent is addition with
+        advanced features like multiple cluster agent deployments, Granular control
+        over config with intuitive boolean switches.
+      digest: 5464c7ac6bab61f0a9ed8868ea86b6dda89c236db025cd6caa9ddb98e1a148b5
+      home: https://appdynamics.com
+      icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - cluster
+        - kubernetes
+        - openshift
+        - monitoring
+        - pod
+        - deployment
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: cluster-agent
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/cluster-agent-0.1.9.tgz
+      version: 0.1.9
+    - apiVersion: v2
+      appVersion: 20.9.1
+      created: "2022-05-26T07:13:40.018883844Z"
+      dependencies:
+        - condition: install.metrics-server
+          name: metrics-server
+          repository: https://kubernetes-charts.storage.googleapis.com
+          version: 2.11.1
+      description:
+        Sophisticated helm chart to deploy cluster agent is addition with
+        advanced features like multiple cluster agent deployments, Granular control
+        over config with intuitive boolean switches.
+      digest: bcfc2dbbb47ee8f217cd4cc105875b72bdd793385fe40422a1789116f4fbb8e3
+      home: https://appdynamics.com
+      icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - cluster
+        - kubernetes
+        - openshift
+        - monitoring
+        - pod
+        - deployment
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: cluster-agent
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/cluster-agent-0.1.8.tgz
+      version: 0.1.8
+    - apiVersion: v2
+      appVersion: 20.9.0
+      created: "2022-05-26T07:13:40.017688297Z"
+      dependencies:
+        - condition: install.metrics-server
+          name: metrics-server
+          repository: https://kubernetes-charts.storage.googleapis.com
+          version: 2.11.1
+      description:
+        Sophisticated helm chart to deploy cluster agent is addition with
+        advanced features like multiple cluster agent deployments, Granular control
+        over config with intuitive boolean switches.
+      digest: f535c39e1e67726d3cfc8f06c21ea04a5eeb76b296c17ac3e27d201ada9ba08e
+      home: https://appdynamics.com
+      icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - cluster
+        - kubernetes
+        - openshift
+        - monitoring
+        - pod
+        - deployment
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: cluster-agent
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/cluster-agent-0.1.7.tgz
+      version: 0.1.7
+    - apiVersion: v2
+      appVersion: 20.8.0
+      created: "2022-05-26T07:13:40.016486836Z"
+      dependencies:
+        - condition: install.metrics-server
+          name: metrics-server
+          repository: https://kubernetes-charts.storage.googleapis.com
+          version: 2.11.1
+      description:
+        Sophisticated helm chart to deploy cluster agent is addition with
+        advanced features like multiple cluster agent deployments, Granular control
+        over config with intuitive boolean switches.
+      digest: bddfea50da4e5222dc2fcde874a223efd8558d6309f9833b2ae1dfd175dc1a23
+      home: https://appdynamics.com
+      icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - cluster
+        - kubernetes
+        - openshift
+        - monitoring
+        - pod
+        - deployment
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: cluster-agent
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/cluster-agent-0.1.6.tgz
+      version: 0.1.6
+    - apiVersion: v2
+      appVersion: 20.7.0
+      created: "2022-05-26T07:13:40.015294998Z"
+      dependencies:
+        - condition: install.metrics-server
+          name: metrics-server
+          repository: https://kubernetes-charts.storage.googleapis.com
+          version: 2.11.1
+      description:
+        Sophisticated helm chart to deploy cluster agent is addition with
+        advanced features like multiple cluster agent deployments, Granular control
+        over config with intuitive boolean switches.
+      digest: 310264f48b2ebb5a9ba0e23ce6cb45809caddead39a7a94a82b616ce0f8ae4a4
+      home: https://appdynamics.com
+      icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - cluster
+        - kubernetes
+        - openshift
+        - monitoring
+        - pod
+        - deployment
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: cluster-agent
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/cluster-agent-0.1.5.tgz
+      version: 0.1.5
+    - apiVersion: v1
+      appVersion: 4.5.16
+      created: "2022-05-26T07:13:40.014084691Z"
+      description: Helm chart to deploy AppDynamics ClusterAgent for Kubernetes
+      digest: 875e0b99360648d2a9bc5caab2b8fc62c2dcf0f41fa7bec49dd69af7b8753a1b
+      home: https://www.appdynamics.com/
+      icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - monitoring
+        - Kubernetes
+        - OpenShift
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: cluster-agent
+      sources:
+        - https://github.com/Appdynamics/cluster-agent/blob/master/build/Dockerfile
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/cluster-agent-0.1.4.tgz
+      version: 0.1.4
+    - apiVersion: v1
+      appVersion: 0.1.5
+      created: "2022-05-26T07:13:40.013551176Z"
+      description: Helm chart to deploy AppDynamics ClusterAgent for Kubernetes
+      digest: 724d3e4d03059a41c3644f18c7c2f61c3699462c433f344a2f993d395aa71d3b
+      home: https://www.appdynamics.com/
+      icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - monitoring
+        - Kubernetes
+        - OpenShift
+      maintainers:
+        - email: sasha.jeltuhin@appdynamics.com
+          name: sashaPM
+      name: cluster-agent
+      sources:
+        - https://github.com/Appdynamics/cluster-agent/blob/master/build/Dockerfile
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/cluster-agent-0.1.3.tgz
+      version: 0.1.3
+    - apiVersion: v1
+      appVersion: 0.1.5
+      created: "2022-05-26T07:13:40.01305835Z"
+      description: Helm chart to deploy AppDynamics ClusterAgent for Kubernetes
+      digest: e4a26cd3647127fd85258d4a0445073eaf238a440b78be62c6c7376c0fd10a4c
+      home: https://www.appdynamics.com/
+      icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - monitoring
+        - Kubernetes
+        - OpenShift
+      maintainers:
+        - email: sasha.jeltuhin@appdynamics.com
+          name: sashaPM
+      name: cluster-agent
+      sources:
+        - https://github.com/Appdynamics/cluster-agent/blob/master/build/Dockerfile
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/cluster-agent-0.1.2.tgz
+      version: 0.1.2
+    - apiVersion: v1
+      appVersion: 0.1.5
+      created: "2022-05-26T07:13:39.998027977Z"
+      description: Helm chart to deploy AppDynamics ClusterAgent for Kubernetes
+      digest: 1e7a7f6372fa8cbe9b6fc6085b9c39a259e6579e4e712b063f7f07d868f96554
+      home: https://www.appdynamics.com/
+      icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - monitoring
+        - Kubernetes
+        - OpenShift
+      maintainers:
+        - email: sasha.jeltuhin@appdynamics.com
+          name: sashaPM
+      name: cluster-agent
+      sources:
+        - https://github.com/Appdynamics/cluster-agent/blob/master/build/Dockerfile
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/cluster-agent-0.1.1.tgz
+      version: 0.1.1
   machine-agent:
-  - apiVersion: v1
-    appVersion: 20.3.2
-    created: "2022-05-26T07:13:40.030001732Z"
-    description: AppDynamics Machine Agent for infrastructure visibility
-    digest: 4ebe4836c35b56528f8e62549f1d3ccf60ed3f80f89bb511e303660384115998
-    home: https://www.appdynamics.com/
-    icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - monitoring
-    - infrastructure
-    maintainers:
-    - email: sasha.jeltuhin@appdynamics.com
-      name: sashaPM
-    name: machine-agent
-    sources:
-    - https://cloud.docker.com/u/appdynamics/repository/docker/appdynamics/machine-agent-analytics/general
-    - https://github.com/Appdynamics/appdynamics-docker-images/blob/master/appd-machine-agent-analytics/Dockerfile
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/machine-agent-0.2.8.tgz
-    version: 0.2.8
-  - apiVersion: v1
-    appVersion: 4.5.16
-    created: "2022-05-26T07:13:40.029273534Z"
-    description: AppDynamics Machine Agent for infrastructure visibility
-    digest: efe504e43cc43477d0b71df6ab4b90ddf19acdfd305d865510c90d4013cdb9fe
-    home: https://www.appdynamics.com/
-    icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - monitoring
-    - infrastructure
-    maintainers:
-    - email: sasha.jeltuhin@appdynamics.com
-      name: sashaPM
-    name: machine-agent
-    sources:
-    - https://cloud.docker.com/u/appdynamics/repository/docker/appdynamics/machine-agent-analytics/general
-    - https://github.com/Appdynamics/appdynamics-docker-images/blob/master/appd-machine-agent-analytics/Dockerfile
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/machine-agent-0.2.7.tgz
-    version: 0.2.7
-  - apiVersion: v1
-    appVersion: 4.5.14
-    created: "2022-05-26T07:13:40.028549475Z"
-    description: AppDynamics Machine Agent for infrastructure visibility
-    digest: 8f95a9d09f70718e14022a7ae3d21143f1bb4dafba7481733f5457fef92022f6
-    home: https://www.appdynamics.com/
-    icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - monitoring
-    - infrastructure
-    maintainers:
-    - email: michael.englert@appdynamics.com
-      name: menglert
-    - email: sasha.jeltuhin@appdynamics.com
-      name: sashaPM
-    name: machine-agent
-    sources:
-    - https://cloud.docker.com/u/appdynamics/repository/docker/appdynamics/machine-agent-analytics/general
-    - https://github.com/Appdynamics/appdynamics-docker-images/blob/master/appd-machine-agent-analytics/Dockerfile
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/machine-agent-0.2.6.tgz
-    version: 0.2.6
-  - apiVersion: v1
-    appVersion: 4.5.11
-    created: "2022-05-26T07:13:40.027924422Z"
-    description: AppDynamics Machine Agent for infrastructure visibility
-    digest: 6abd077efa43f9a9c3bc600eee8227505b492376f4cec83ae3f99acdaeec4508
-    home: https://www.appdynamics.com/
-    icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - monitoring
-    - infrastructure
-    maintainers:
-    - email: michael.englert@appdynamics.com
-      name: menglert
-    - email: sasha.jeltuhin@appdynamics.com
-      name: sashaPM
-    name: machine-agent
-    sources:
-    - https://cloud.docker.com/u/appdynamics/repository/docker/appdynamics/machine-agent-analytics/general
-    - https://github.com/Appdynamics/appdynamics-docker-images/blob/master/appd-machine-agent-analytics/Dockerfile
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/machine-agent-0.2.5.tgz
-    version: 0.2.5
-  - apiVersion: v1
-    appVersion: 4.5.11
-    created: "2022-05-26T07:13:40.027332404Z"
-    description: AppDynamics Machine Agent for infrastructure visibility
-    digest: 1e646e23fb53641455522b8238a80eba58b6b480632b34340e22494cb9467c1e
-    home: https://www.appdynamics.com/
-    icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - monitoring
-    - infrastructure
-    maintainers:
-    - email: michael.englert@appdynamics.com
-      name: menglert
-    - email: sasha.jeltuhin@appdynamics.com
-      name: sashaPM
-    name: machine-agent
-    sources:
-    - https://cloud.docker.com/u/appdynamics/repository/docker/appdynamics/machine-agent-analytics/general
-    - https://github.com/Appdynamics/appdynamics-docker-images/blob/master/appd-machine-agent-analytics/Dockerfile
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/machine-agent-0.2.4.tgz
-    version: 0.2.4
-  - apiVersion: v1
-    appVersion: 4.5.11
-    created: "2022-05-26T07:13:40.026764219Z"
-    description: AppDynamics Machine Agent for infrastructure visibility
-    digest: c7eaf87b9d4089abfd6eeb2478278a13d6f7b8e504a120f2954c5e9e82bd1772
-    home: https://www.appdynamics.com/
-    icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - monitoring
-    - infrastructure
-    maintainers:
-    - email: michael.englert@appdynamics.com
-      name: menglert
-    - email: sasha.jeltuhin@appdynamics.com
-      name: sashaPM
-    name: machine-agent
-    sources:
-    - https://cloud.docker.com/u/appdynamics/repository/docker/appdynamics/machine-agent-analytics/general
-    - https://github.com/Appdynamics/appdynamics-docker-images/blob/master/appd-machine-agent-analytics/Dockerfile
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/machine-agent-0.2.3.tgz
-    version: 0.2.3
-  - apiVersion: v1
-    appVersion: 4.5.9
-    created: "2022-05-26T07:13:40.026228276Z"
-    description: AppDynamics Machine Agent for infrastructure visibility
-    digest: 1e3534adbc3ddbb119033e652e6f37c9b6a27dcf6ae12c48cc52a9971ea5b0bc
-    home: https://www.appdynamics.com/
-    icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - monitoring
-    - infrastructure
-    maintainers:
-    - email: michael.englert@appdynamics.com
-      name: menglert
-    - email: sasha.jeltuhin@appdynamics.com
-      name: sashaPM
-    name: machine-agent
-    sources:
-    - https://cloud.docker.com/u/appdynamics/repository/docker/appdynamics/machine-agent-analytics/general
-    - https://github.com/Appdynamics/appdynamics-docker-images/blob/master/appd-machine-agent-analytics/Dockerfile
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/machine-agent-0.2.2.tgz
-    version: 0.2.2
+    - apiVersion: v1
+      appVersion: 20.3.2
+      created: "2022-05-26T07:13:40.030001732Z"
+      description: AppDynamics Machine Agent for infrastructure visibility
+      digest: 4ebe4836c35b56528f8e62549f1d3ccf60ed3f80f89bb511e303660384115998
+      home: https://www.appdynamics.com/
+      icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - monitoring
+        - infrastructure
+      maintainers:
+        - email: sasha.jeltuhin@appdynamics.com
+          name: sashaPM
+      name: machine-agent
+      sources:
+        - https://cloud.docker.com/u/appdynamics/repository/docker/appdynamics/machine-agent-analytics/general
+        - https://github.com/Appdynamics/appdynamics-docker-images/blob/master/appd-machine-agent-analytics/Dockerfile
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/machine-agent-0.2.8.tgz
+      version: 0.2.8
+    - apiVersion: v1
+      appVersion: 4.5.16
+      created: "2022-05-26T07:13:40.029273534Z"
+      description: AppDynamics Machine Agent for infrastructure visibility
+      digest: efe504e43cc43477d0b71df6ab4b90ddf19acdfd305d865510c90d4013cdb9fe
+      home: https://www.appdynamics.com/
+      icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - monitoring
+        - infrastructure
+      maintainers:
+        - email: sasha.jeltuhin@appdynamics.com
+          name: sashaPM
+      name: machine-agent
+      sources:
+        - https://cloud.docker.com/u/appdynamics/repository/docker/appdynamics/machine-agent-analytics/general
+        - https://github.com/Appdynamics/appdynamics-docker-images/blob/master/appd-machine-agent-analytics/Dockerfile
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/machine-agent-0.2.7.tgz
+      version: 0.2.7
+    - apiVersion: v1
+      appVersion: 4.5.14
+      created: "2022-05-26T07:13:40.028549475Z"
+      description: AppDynamics Machine Agent for infrastructure visibility
+      digest: 8f95a9d09f70718e14022a7ae3d21143f1bb4dafba7481733f5457fef92022f6
+      home: https://www.appdynamics.com/
+      icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - monitoring
+        - infrastructure
+      maintainers:
+        - email: michael.englert@appdynamics.com
+          name: menglert
+        - email: sasha.jeltuhin@appdynamics.com
+          name: sashaPM
+      name: machine-agent
+      sources:
+        - https://cloud.docker.com/u/appdynamics/repository/docker/appdynamics/machine-agent-analytics/general
+        - https://github.com/Appdynamics/appdynamics-docker-images/blob/master/appd-machine-agent-analytics/Dockerfile
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/machine-agent-0.2.6.tgz
+      version: 0.2.6
+    - apiVersion: v1
+      appVersion: 4.5.11
+      created: "2022-05-26T07:13:40.027924422Z"
+      description: AppDynamics Machine Agent for infrastructure visibility
+      digest: 6abd077efa43f9a9c3bc600eee8227505b492376f4cec83ae3f99acdaeec4508
+      home: https://www.appdynamics.com/
+      icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - monitoring
+        - infrastructure
+      maintainers:
+        - email: michael.englert@appdynamics.com
+          name: menglert
+        - email: sasha.jeltuhin@appdynamics.com
+          name: sashaPM
+      name: machine-agent
+      sources:
+        - https://cloud.docker.com/u/appdynamics/repository/docker/appdynamics/machine-agent-analytics/general
+        - https://github.com/Appdynamics/appdynamics-docker-images/blob/master/appd-machine-agent-analytics/Dockerfile
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/machine-agent-0.2.5.tgz
+      version: 0.2.5
+    - apiVersion: v1
+      appVersion: 4.5.11
+      created: "2022-05-26T07:13:40.027332404Z"
+      description: AppDynamics Machine Agent for infrastructure visibility
+      digest: 1e646e23fb53641455522b8238a80eba58b6b480632b34340e22494cb9467c1e
+      home: https://www.appdynamics.com/
+      icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - monitoring
+        - infrastructure
+      maintainers:
+        - email: michael.englert@appdynamics.com
+          name: menglert
+        - email: sasha.jeltuhin@appdynamics.com
+          name: sashaPM
+      name: machine-agent
+      sources:
+        - https://cloud.docker.com/u/appdynamics/repository/docker/appdynamics/machine-agent-analytics/general
+        - https://github.com/Appdynamics/appdynamics-docker-images/blob/master/appd-machine-agent-analytics/Dockerfile
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/machine-agent-0.2.4.tgz
+      version: 0.2.4
+    - apiVersion: v1
+      appVersion: 4.5.11
+      created: "2022-05-26T07:13:40.026764219Z"
+      description: AppDynamics Machine Agent for infrastructure visibility
+      digest: c7eaf87b9d4089abfd6eeb2478278a13d6f7b8e504a120f2954c5e9e82bd1772
+      home: https://www.appdynamics.com/
+      icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - monitoring
+        - infrastructure
+      maintainers:
+        - email: michael.englert@appdynamics.com
+          name: menglert
+        - email: sasha.jeltuhin@appdynamics.com
+          name: sashaPM
+      name: machine-agent
+      sources:
+        - https://cloud.docker.com/u/appdynamics/repository/docker/appdynamics/machine-agent-analytics/general
+        - https://github.com/Appdynamics/appdynamics-docker-images/blob/master/appd-machine-agent-analytics/Dockerfile
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/machine-agent-0.2.3.tgz
+      version: 0.2.3
+    - apiVersion: v1
+      appVersion: 4.5.9
+      created: "2022-05-26T07:13:40.026228276Z"
+      description: AppDynamics Machine Agent for infrastructure visibility
+      digest: 1e3534adbc3ddbb119033e652e6f37c9b6a27dcf6ae12c48cc52a9971ea5b0bc
+      home: https://www.appdynamics.com/
+      icon: https://raw.githubusercontent.com/Appdynamics/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - monitoring
+        - infrastructure
+      maintainers:
+        - email: michael.englert@appdynamics.com
+          name: menglert
+        - email: sasha.jeltuhin@appdynamics.com
+          name: sashaPM
+      name: machine-agent
+      sources:
+        - https://cloud.docker.com/u/appdynamics/repository/docker/appdynamics/machine-agent-analytics/general
+        - https://github.com/Appdynamics/appdynamics-docker-images/blob/master/appd-machine-agent-analytics/Dockerfile
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/machine-agent-0.2.2.tgz
+      version: 0.2.2
   o2-k8s-monitoring:
-  - apiVersion: v2
-    appVersion: 22.5.0
-    created: "2022-05-26T07:13:40.035222024Z"
-    description: Sophisticated helm chart to deploy clustermon as a deployment, otel
-      collector, infra manager, containermon, servermon and log collector as a daemonset.
-    digest: 05b60df71110b8975b482a388dcbbadde4c6e7368feb33b6d2a2f676874ca0c2
-    home: https://appdynamics.com
-    icon: https://raw.githubusercontent.com/CiscoDevNet/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - cluster
-    - kubernetes
-    - monitoring
-    - pod
-    - deployment
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: o2-k8s-monitoring
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/o2-k8s-monitoring-0.5.0.tgz
-    version: 0.5.0
-  - apiVersion: v2
-    appVersion: 22.3.1
-    created: "2022-05-26T07:13:40.034351993Z"
-    description: Sophisticated helm chart to deploy clustermon as a deployment, otel
-      collector, infra manager, containermon, servermon and log collector as a daemonset.
-    digest: 482923a1150b6d5eab5a291de470be188f20c7dfdee78e153bcf8b1b5ad9bd86
-    home: https://appdynamics.com
-    icon: https://raw.githubusercontent.com/CiscoDevNet/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - cluster
-    - kubernetes
-    - monitoring
-    - pod
-    - deployment
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: o2-k8s-monitoring
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/o2-k8s-monitoring-0.4.0.tgz
-    version: 0.4.0
-  - apiVersion: v2
-    appVersion: 22.3.0
-    created: "2022-05-26T07:13:40.033566339Z"
-    description: Sophisticated helm chart to deploy clustermon as a deployment, otel
-      collector, infra manager, containermon, servermon and log collector as a daemonset.
-    digest: b234f142b82706826d7bfdac5c80a50c4f8168abf4fc2d5d2561b05415a5e47d
-    home: https://appdynamics.com
-    icon: https://raw.githubusercontent.com/CiscoDevNet/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - cluster
-    - kubernetes
-    - monitoring
-    - pod
-    - deployment
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: o2-k8s-monitoring
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/o2-k8s-monitoring-0.3.0.tgz
-    version: 0.3.0
-  - apiVersion: v2
-    appVersion: 22.3.0
-    created: "2022-05-26T07:13:40.031988844Z"
-    description: Sophisticated helm chart to deploy clustermon as a deployment, otel
-      collector, infra manager, containermon, servermon and log collector as a daemonset.
-    digest: 93e089412991363284583e6f4a1b1e84401ed5816101293ba2a4e5673a2a0175
-    home: https://appdynamics.com
-    icon: https://raw.githubusercontent.com/CiscoDevNet/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - cluster
-    - kubernetes
-    - monitoring
-    - pod
-    - deployment
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: o2-k8s-monitoring
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/o2-k8s-monitoring-0.2.0.tgz
-    version: 0.2.0
-  - apiVersion: v2
-    appVersion: 22.1.1
-    created: "2022-05-26T07:13:40.031272938Z"
-    description: Sophisticated helm chart to deploy clustermon as a deployment, otel
-      collector, infra manager, containermon and servermon as a daemonset.
-    digest: c29030b511870cfafbf317b99dfa59403dd355a3081138e93163da7c7bb6337d
-    home: https://appdynamics.com
-    icon: https://raw.githubusercontent.com/CiscoDevNet/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - cluster
-    - kubernetes
-    - monitoring
-    - pod
-    - deployment
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: o2-k8s-monitoring
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/o2-k8s-monitoring-0.1.1.tgz
-    version: 0.1.1
-  - apiVersion: v2
-    appVersion: 22.1.0
-    created: "2022-05-26T07:13:40.030642613Z"
-    description: Sophisticated helm chart to deploy clustermon as a deployment, otel
-      collector, infra manager, containermon and servermon as a daemonset.
-    digest: cc7809773409b57dd909fe7578c2cb72e1aa46488561028c29f36dce7862622c
-    home: https://appdynamics.com
-    icon: https://raw.githubusercontent.com/CiscoDevNet/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - cluster
-    - kubernetes
-    - monitoring
-    - pod
-    - deployment
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: o2-k8s-monitoring
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/o2-k8s-monitoring-0.1.0.tgz
-    version: 0.1.0
+    - apiVersion: v2
+      appVersion: 22.5.0
+      created: "2022-05-26T07:13:40.035222024Z"
+      description:
+        Sophisticated helm chart to deploy clustermon as a deployment, otel
+        collector, infra manager, containermon, servermon and log collector as a daemonset.
+      digest: 05b60df71110b8975b482a388dcbbadde4c6e7368feb33b6d2a2f676874ca0c2
+      home: https://appdynamics.com
+      icon: https://raw.githubusercontent.com/xirixiz/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - cluster
+        - kubernetes
+        - monitoring
+        - pod
+        - deployment
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: o2-k8s-monitoring
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/o2-k8s-monitoring-0.5.0.tgz
+      version: 0.5.0
+    - apiVersion: v2
+      appVersion: 22.3.1
+      created: "2022-05-26T07:13:40.034351993Z"
+      description:
+        Sophisticated helm chart to deploy clustermon as a deployment, otel
+        collector, infra manager, containermon, servermon and log collector as a daemonset.
+      digest: 482923a1150b6d5eab5a291de470be188f20c7dfdee78e153bcf8b1b5ad9bd86
+      home: https://appdynamics.com
+      icon: https://raw.githubusercontent.com/xirixiz/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - cluster
+        - kubernetes
+        - monitoring
+        - pod
+        - deployment
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: o2-k8s-monitoring
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/o2-k8s-monitoring-0.4.0.tgz
+      version: 0.4.0
+    - apiVersion: v2
+      appVersion: 22.3.0
+      created: "2022-05-26T07:13:40.033566339Z"
+      description:
+        Sophisticated helm chart to deploy clustermon as a deployment, otel
+        collector, infra manager, containermon, servermon and log collector as a daemonset.
+      digest: b234f142b82706826d7bfdac5c80a50c4f8168abf4fc2d5d2561b05415a5e47d
+      home: https://appdynamics.com
+      icon: https://raw.githubusercontent.com/xirixiz/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - cluster
+        - kubernetes
+        - monitoring
+        - pod
+        - deployment
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: o2-k8s-monitoring
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/o2-k8s-monitoring-0.3.0.tgz
+      version: 0.3.0
+    - apiVersion: v2
+      appVersion: 22.3.0
+      created: "2022-05-26T07:13:40.031988844Z"
+      description:
+        Sophisticated helm chart to deploy clustermon as a deployment, otel
+        collector, infra manager, containermon, servermon and log collector as a daemonset.
+      digest: 93e089412991363284583e6f4a1b1e84401ed5816101293ba2a4e5673a2a0175
+      home: https://appdynamics.com
+      icon: https://raw.githubusercontent.com/xirixiz/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - cluster
+        - kubernetes
+        - monitoring
+        - pod
+        - deployment
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: o2-k8s-monitoring
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/o2-k8s-monitoring-0.2.0.tgz
+      version: 0.2.0
+    - apiVersion: v2
+      appVersion: 22.1.1
+      created: "2022-05-26T07:13:40.031272938Z"
+      description:
+        Sophisticated helm chart to deploy clustermon as a deployment, otel
+        collector, infra manager, containermon and servermon as a daemonset.
+      digest: c29030b511870cfafbf317b99dfa59403dd355a3081138e93163da7c7bb6337d
+      home: https://appdynamics.com
+      icon: https://raw.githubusercontent.com/xirixiz/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - cluster
+        - kubernetes
+        - monitoring
+        - pod
+        - deployment
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: o2-k8s-monitoring
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/o2-k8s-monitoring-0.1.1.tgz
+      version: 0.1.1
+    - apiVersion: v2
+      appVersion: 22.1.0
+      created: "2022-05-26T07:13:40.030642613Z"
+      description:
+        Sophisticated helm chart to deploy clustermon as a deployment, otel
+        collector, infra manager, containermon and servermon as a daemonset.
+      digest: cc7809773409b57dd909fe7578c2cb72e1aa46488561028c29f36dce7862622c
+      home: https://appdynamics.com
+      icon: https://raw.githubusercontent.com/xirixiz/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - cluster
+        - kubernetes
+        - monitoring
+        - pod
+        - deployment
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: o2-k8s-monitoring
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/o2-k8s-monitoring-0.1.0.tgz
+      version: 0.1.0
   o2-operator:
-  - apiVersion: v2
-    appVersion: 22.5.0
-    created: "2022-05-26T07:13:40.03756472Z"
-    description: Helm chart for Appdynamics Operator
-    digest: 5948203a4ddbb2ffcf1bc714f853de101cd71d2e666a475a4c29e7ae9cf9da3d
-    home: https://appdynamics.com
-    icon: https://raw.githubusercontent.com/CiscoDevNet/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - cluster
-    - kubernetes
-    - monitoring
-    - pod
-    - deployment
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: o2-operator
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/o2-operator-0.5.0.tgz
-    version: 0.5.0
-  - apiVersion: v2
-    appVersion: 22.3.1
-    created: "2022-05-26T07:13:40.03717437Z"
-    description: Helm chart for Appdynamics Operator
-    digest: d9601d0275d603c47880e682dfcbb3a288bfa34d882d738339ed5a4bb68937cd
-    home: https://appdynamics.com
-    icon: https://raw.githubusercontent.com/CiscoDevNet/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - cluster
-    - kubernetes
-    - monitoring
-    - pod
-    - deployment
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: o2-operator
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/o2-operator-0.4.0.tgz
-    version: 0.4.0
-  - apiVersion: v2
-    appVersion: 22.3.0
-    created: "2022-05-26T07:13:40.036796098Z"
-    description: Helm chart for Appdynamics Operator
-    digest: 64fefd539543ba8f376a34809ee7eb5791b56a19438e554a6aad77295cacbc31
-    home: https://appdynamics.com
-    icon: https://raw.githubusercontent.com/CiscoDevNet/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - cluster
-    - kubernetes
-    - monitoring
-    - pod
-    - deployment
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: o2-operator
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/o2-operator-0.3.0.tgz
-    version: 0.3.0
-  - apiVersion: v2
-    appVersion: 22.3.0
-    created: "2022-05-26T07:13:40.036375573Z"
-    description: Helm chart for Appdynamics Operator
-    digest: 23030b508f881d1a7cf58b363df19b1ea51879e54ae10679c29624df7aaef703
-    home: https://appdynamics.com
-    icon: https://raw.githubusercontent.com/CiscoDevNet/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - cluster
-    - kubernetes
-    - monitoring
-    - pod
-    - deployment
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: o2-operator
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/o2-operator-0.2.0.tgz
-    version: 0.2.0
-  - apiVersion: v2
-    appVersion: 22.1.1
-    created: "2022-05-26T07:13:40.03599489Z"
-    description: Helm chart for Appdynamics Operator
-    digest: 602dee6776eee4fb02898e0128948a276c8367fa6cc85ee44dc7dce9af4e67a5
-    home: https://appdynamics.com
-    icon: https://raw.githubusercontent.com/CiscoDevNet/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - cluster
-    - kubernetes
-    - monitoring
-    - pod
-    - deployment
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: o2-operator
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/o2-operator-0.1.1.tgz
-    version: 0.1.1
-  - apiVersion: v2
-    appVersion: 22.1.0
-    created: "2022-05-26T07:13:40.035612418Z"
-    description: Helm chart for Appdynamics Operator
-    digest: 946ca13d10206c53d361bfdd6750d5f39b767e76043c7550e5237c6f992f3c55
-    home: https://appdynamics.com
-    icon: https://raw.githubusercontent.com/CiscoDevNet/appdynamics-charts/master/logo.png
-    keywords:
-    - appdynamics
-    - cluster
-    - kubernetes
-    - monitoring
-    - pod
-    - deployment
-    maintainers:
-    - email: support@appdynamics.com
-      name: AppDynamics
-    name: o2-operator
-    urls:
-    - https://ciscodevnet.github.io/appdynamics-charts/o2-operator-0.1.0.tgz
-    version: 0.1.0
+    - apiVersion: v2
+      appVersion: 22.5.0
+      created: "2022-05-26T07:13:40.03756472Z"
+      description: Helm chart for Appdynamics Operator
+      digest: 5948203a4ddbb2ffcf1bc714f853de101cd71d2e666a475a4c29e7ae9cf9da3d
+      home: https://appdynamics.com
+      icon: https://raw.githubusercontent.com/xirixiz/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - cluster
+        - kubernetes
+        - monitoring
+        - pod
+        - deployment
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: o2-operator
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/o2-operator-0.5.0.tgz
+      version: 0.5.0
+    - apiVersion: v2
+      appVersion: 22.3.1
+      created: "2022-05-26T07:13:40.03717437Z"
+      description: Helm chart for Appdynamics Operator
+      digest: d9601d0275d603c47880e682dfcbb3a288bfa34d882d738339ed5a4bb68937cd
+      home: https://appdynamics.com
+      icon: https://raw.githubusercontent.com/xirixiz/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - cluster
+        - kubernetes
+        - monitoring
+        - pod
+        - deployment
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: o2-operator
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/o2-operator-0.4.0.tgz
+      version: 0.4.0
+    - apiVersion: v2
+      appVersion: 22.3.0
+      created: "2022-05-26T07:13:40.036796098Z"
+      description: Helm chart for Appdynamics Operator
+      digest: 64fefd539543ba8f376a34809ee7eb5791b56a19438e554a6aad77295cacbc31
+      home: https://appdynamics.com
+      icon: https://raw.githubusercontent.com/xirixiz/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - cluster
+        - kubernetes
+        - monitoring
+        - pod
+        - deployment
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: o2-operator
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/o2-operator-0.3.0.tgz
+      version: 0.3.0
+    - apiVersion: v2
+      appVersion: 22.3.0
+      created: "2022-05-26T07:13:40.036375573Z"
+      description: Helm chart for Appdynamics Operator
+      digest: 23030b508f881d1a7cf58b363df19b1ea51879e54ae10679c29624df7aaef703
+      home: https://appdynamics.com
+      icon: https://raw.githubusercontent.com/xirixiz/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - cluster
+        - kubernetes
+        - monitoring
+        - pod
+        - deployment
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: o2-operator
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/o2-operator-0.2.0.tgz
+      version: 0.2.0
+    - apiVersion: v2
+      appVersion: 22.1.1
+      created: "2022-05-26T07:13:40.03599489Z"
+      description: Helm chart for Appdynamics Operator
+      digest: 602dee6776eee4fb02898e0128948a276c8367fa6cc85ee44dc7dce9af4e67a5
+      home: https://appdynamics.com
+      icon: https://raw.githubusercontent.com/xirixiz/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - cluster
+        - kubernetes
+        - monitoring
+        - pod
+        - deployment
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: o2-operator
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/o2-operator-0.1.1.tgz
+      version: 0.1.1
+    - apiVersion: v2
+      appVersion: 22.1.0
+      created: "2022-05-26T07:13:40.035612418Z"
+      description: Helm chart for Appdynamics Operator
+      digest: 946ca13d10206c53d361bfdd6750d5f39b767e76043c7550e5237c6f992f3c55
+      home: https://appdynamics.com
+      icon: https://raw.githubusercontent.com/xirixiz/appdynamics-charts/master/logo.png
+      keywords:
+        - appdynamics
+        - cluster
+        - kubernetes
+        - monitoring
+        - pod
+        - deployment
+      maintainers:
+        - email: support@appdynamics.com
+          name: AppDynamics
+      name: o2-operator
+      urls:
+        - https://raw.githubusercontent.com/xirixiz/appdynamics-charts/o2-operator-0.1.0.tgz
+      version: 0.1.0
 generated: "2023-02-27T16:02:41.87286834Z"
